@@ -1,16 +1,16 @@
 @font-face {
     font-family: Inter;
-    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 @font-face {
     font-family: Abril Fatface;
-    src: url(../fonts/AbrilFatface-Regular.ttf);
+    src: url(../Fonts/AbrilFatface-Regular.ttf);
 }
 
 @font-face {
     font-family: Ms Madi;
-    src: url(../fonts/MsMadi-Regular.ttf);
+    src: url(../Fonts/MsMadi-Regular.ttf);
 }
 
 html {
