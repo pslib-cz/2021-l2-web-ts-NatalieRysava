@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Terénní seminář</title>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/typography.css">
+        <link rel="stylesheet" href="CSS/mobile.css">
+        <link rel="stylesheet" href="CSS/tablet.css">
+        <link rel="stylesheet" href="CSS/computer.css">
+        <link rel="stylesheet" href="LightGallery/css/lightgallery-bundle.min.css">
+        <link rel="stylesheet" href="CSS/submenu.css">
+    </head>
+    <body>
+        <div class="main-header">
+            <header class="header">
+                <h1 class="header__heading header__heading--alignment header__heading--uppercase">Terénní<span class="header__heading--smaller header__heading--letter-spacing header__heading--lowercase">seminář</span></h1>
+                <nav class="nav nav--bar-layout nav--line">
+                    <ul> 
+                        <li class="nav__item nav__item--lowercase"><a class="activator link--green" href="javascript:void(0);" id="activator" onclick="togglemenu()">Témata</a>
+                            <ul class="nav__submenu nav__submenu--pink nav__submenu--hidden" id="submenu">
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="#Best-of">Best of</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="#Zanrove-fotografie">Žánrové fotografie</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="#Serie">Série</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="galerie.html">Galerie</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="trasa.html">Trasa</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <p class="main-header__text">
+                Vítejte na mých webových stránkách, které vznikly na základě konání terénního semináře. Úkol byl zadán na hodinách multimédií a&nbsp;webových aplikací na Střední průmyslové škole strojní a&nbsp;elektrotechnické v&nbsp;Liberci. Naším úkolem bylo zpracovat několik témat. Focení probíhalo přímo v&nbsp;centru města Liberce, což pro mě byla velká výzva. Doteď jsem fotila jen v&nbsp;přírodě.
+            </p>
+            <div class="section">
+                <figure class="section__picture picture section__picture--flowout-5 picture--opening picture--full-width">
+                    <img srcset="
+                        Pictures/Thumbnails/UvodniFotografie/UvodniFotografie_Mobile760px.jpg 760w,
+                        Pictures/Thumbnails/UvodniFotografie/UvodniFotografie_Tablet1150px.jpg 1150w, 
+                        Pictures/Thumbnails/UvodniFotografie/UvodniFotografie_Computer1920px.jpg 1920w"
+                    sizes="
+                        (max-width: 760px) 100vw,
+                        (max-width: 1150px) calc(100vw – 2 * 4rem),
+                        calc(100vw – 2 * 8rem)"
+                    src="Pictures/Thumbnails/UvodniFotografie/UvodniFotografie_Tablet1150px.jpg" alt="Siluety mých spolužáků nad schody Technické univerzity" />
+                </figure>
+                <div class="text-box text-box--indentation text-box--pink">
+                    <figure class="text">
+                        <blockquote class="text__quote">
+                            “To me, photography is an art of observation. It's about finding something interesting in an ordinary place… I've found it has little to do with the things you see and everything to do with the way you see them.”
+                        </blockquote>
+                        <figcaption class="text__author">
+                            Elliott Erwitt
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <section class="section">
+                <h2 class="section__heading section__heading--grey" id="Serie">Série</h2>
+                <div class="picture-box picture-box--series" id="my-gallery">
+                    <figure class="picture picture-box__picture picture-box__picture--columns">
+                        <a href="Pictures/Fullscreen/Serie/Serie_Foto1.jpg">
+                            <img src="Pictures/Thumbnails/Serie/Serie_Foto1.jpg" alt="Budova Technické univerzity v Liberci">
+                        </a>
+                    </figure>
+                    <figure class="picture picture-box__picture picture-box__picture--columns">
+                        <a href="Pictures/Fullscreen/Serie/Serie_Foto2.jpg">
+                            <img src="Pictures/Thumbnails/Serie/Serie_Foto2.jpg" alt="Budova Technické univerzity v Liberci">
+                        </a>
+                    </figure>
+                    <figure class="picture picture-box__picture picture-box__picture--columns">
+                        <a href="Pictures/Fullscreen/Serie/Serie_Foto3.jpg">
+                            <img src="Pictures/Thumbnails/Serie/Serie_Foto3.jpg" alt="Budova Technické univerzity v Liberci">
+                        </a>
+                    </figure>
+                    <figure class="picture picture-box__picture picture-box__picture--columns">
+                        <a href="Pictures/Fullscreen/Serie/Serie_Foto4.jpg">
+                            <img src="Pictures/Thumbnails/Serie/Serie_Foto4.jpg" alt="Budova Technické univerzity v Liberci">
+                        </a>
+                    </figure>
+                    <figure class="picture picture-box__picture picture-box__picture--columns">
+                        <a href="Pictures/Fullscreen/Serie/Serie_Foto5.jpg">
+                            <img src="Pictures/Thumbnails/Serie/Serie_Foto5.jpg" alt="Budova Technické univerzity v Liberci">
+                        </a>
+                    </figure>
+                </div>
+                <p class="section__text section__text--series">
+                    Dlouho jsem nemohla vymyslet, co jako sérii vyfotit. Když jsem však procházela městem a&nbsp;zahlédla netypickou stavbu Technické univerzity, byla jsem ohromena. Na to, že již dva roky navštěvuji prakticky každý den Liberec, jsem o&nbsp;něčem takovém vůbec nevěděla. Překvapilo mě, z&nbsp;kolika možných úhlů lze stavbu vyfotit tak, aby pokaždé vypadala úplně jinak a&nbsp;stále skvěle.
+                </p>
+            </section>
+            <section class="section">
+                <h2 class="section__heading section_heading--alignment-left section_heading--indentation section__heading--yellow" id="Best-of">Best of</h2>
+                <div class="box box--best-of">
+                    <figure class="section__picture section__picture--indentation section__picture--flowout-120 section__picture--flowout-80 picture">
+                        <a href="Pictures/Fullscreen/BestOf.jpg">
+                            <img srcset="
+                                Pictures/Thumbnails/BestOf/BestOf_Smaller420px.jpg 420w,
+                                Pictures/Thumbnails/BestOf/BestOf_Bigger840px.jpg 840w"
+                            sizes="
+                                (max-width: 760px) calc(100vw - 2 * 2.5rem),
+                                (max-width: 1150px) calc(100vw - 2 * 12rem),
+                                20vw"
+                            src="Pictures/Thumbnails/BestOf/BestOf_Bigger840px.jpg" alt="Růžová sakura" />
+                        </a>
+                    </figure>
+                    <div class="text-box text-box--indentation text-box--green">
+                        <h3 class="text-box__heading text-box__heading--best-of text-box__heading--uppercase">
+                            Kouzlo jara
+                        </h3>
+                        <p class="text-box__text">
+                            Každý, kdo někdy pozoroval rozkvetlé stromy sakury, osobně ví, že je nemožné odvrátit oči od tak úžasné podívané. Velkolepé koruny růžových květů ohromují naši představivost. Po dlouhé době zimní šedi můžeme koněčně spatřit kouzlo jara.
+                        </p>
+                        <p class="text-box__text">
+                            U&nbsp;fotografování jakýchkoli květů je barva jednou z&nbsp;nejdůležitějších věcí, kterou je třeba zacyhytit. Bohatý a&nbsp;živý záběr bude vypadat nekonečně lépe než ten, který je nudný a&nbsp;bez barev. Pokud fotografujete venku, vyberte si den se spoustou jasného, přirozeného slunečního světla, aby byly barvy květin skutečně zvýrazněny.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="aboutme">
+                <h2 class="section__heading section__heading--pink">Kdo jsem?</h2>
+                    <div class="container container--about-me">
+                        <div class="text-box text-box--alignment-left">
+                            <p class="text-box__text text-box__text--about-me">
+                                Jmenuji se Natálie Ryšavá a&nbsp;jsem studentkou druhého ročníku technického lycea na Střední průmyslové škole strojní a&nbsp;elektrotechnické v&nbsp;Liberci.
+                                Odjakživa se zajímám o&nbsp;focení a&nbsp;o&nbsp;to, jak vůbec fotografie vzniká. Líbila se mi myšlenka, že mohu navždy zachytit okmžik, který se už nedá zopakovat. Vždy jsem nejraději fotila přírodu a&nbsp;zvířata, ale teď bych se chtěla více zaměřit i&nbsp;na focení portrétů.
+                            </p>
+                            <p class="text-box__text text-box__text--about-me">
+                                Také jste mohli zaregistrovat, že jsem hlavní fotografkou studentského filmu Sherlock Holmes: Tahy králů.
+                            </p>
+                        </div>
+                        <div class="box box--about-me">
+                            <figure class="section__picture picture picture--profile">
+                                <img src="Pictures/Thumbnails/Foto_KdoJsem.jpg" alt="Můj portrét">
+                            </figure>
+                            <p class="section__text section__text--signature">
+                                Naty
+                            </p>
+                        </div>
+                    </div>
+            </section>
+            <section class="section section--line section--full-width">
+                <h2 class="section__heading section__heading--green section__heading--alignment" id="Zanrove-fotografie">Žánrové<span>fotografie</span></h2>
+                <div class="picture-box picture-box--genre-photos">
+                    <figure class="picture-box__picture picture picture-box__picture--indentation picture--full-width">
+                        <a href="krehkakrasa.html">
+                            <img src="Pictures/Thumbnails/ZanroveFotografie/ZanroveFotografie_KrehkaKrasa1.jpg" alt="Fialový Šafrán jarní">
+                        </a>
+                        <figcaption class="picture__figcaption picture__figcaption--lowercase">
+                            Křehká krása
+                        </figcaption>
+                    </figure>
+                    <figure class="picture-box__picture picture picture-box__picture--indentation picture--full-width">
+                        <a href="casyminule.html">
+                            <img src="Pictures/Thumbnails/ZanroveFotografie/ZanroveFotografie_CasyMinule1.jpg" alt="Panenka ve vitríně">
+                        </a>
+                        <figcaption class="picture__figcaption picture__figcaption--lowercase">
+                            Časy minulé
+                        </figcaption>
+                    </figure>
+                    <figure class="picture-box__picture picture picture-box__picture--indentation picture--full-width">
+                        <a href="svetbezbarev.html">
+                            <img src="Pictures/Thumbnails/ZanroveFotografie/ZanroveFotografie_SvetBezBarev1.jpg" alt="Starší pán procházející se po náměstí">
+                        </a>
+                        <figcaption class="picture__figcaption picture__figcaption--lowercase">
+                            Svět bez barev
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <p class="main-footer__copyright">
+                &copy; 2022 Natálie Ryšavá
+            </p>
+            <nav class="nav nav--icon-layout nav--right">
+                <ul>
+                    <li class="nav__item nav__item--icon-layout"><a href="mailto:rysava.natali@gmail.com"><img src="Icons/Ikona_Email.svg" alt="Ikona Email"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.facebook.com/naty.pattynew"><img src="Icons/Ikona_Facebook.svg" alt="Ikona Facebook"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.instagram.com/naty.pattynew"><img src="Icons/Ikona_Instagarm.svg" alt="Ikona Instagram"></a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="LightGallery/lightgallery.min.js"></script>
+        <script>lightGallery(document.getElementById('my-gallery'), {
+            selector: '.picture > a',
+        });
+        </script>
+        <script>
+            let topMenu = document.getElementById('submenu');
+            let activator = document.getElementById('activator');
+            function togglemenu() {
+                topMenu.classList.toggle("nav__submenu--hidden");
+                activator.classList.toggle("activator--active");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trasa</title>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/typography.css">
+        <link rel="stylesheet" href="CSS/mobile.css">
+        <link rel="stylesheet" href="CSS/tablet.css">
+        <link rel="stylesheet" href="CSS/computer.css">
+        <link rel="stylesheet" href="CSS/submenu.css">
+    </head>
+    <body>
+        <div class="main-header">
+            <header class="header">
+                <p class="header__logo header__logo--alignment header__logo--indentation header__logo--uppercase">
+                    <a class="link--letter-spacing" href="index.html">
+                        Terénní<span class="header__logo--smaller header__logo--lowercase header__heading--letter-spacing">seminář</span>
+                    </a>
+                </p>
+                <nav class="nav nav--bar-layout nav--line">
+                    <ul>
+                        <li class="nav__item nav__item--lowercase nav__item--bar-layout"><a class="activator link--green" href="javascript:void(0);" id="activator" onclick="togglemenu()">Témata</a>
+                            <ul class="nav__submenu nav__submenu--pink nav__submenu--hidden" id="submenu">
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Best-of">Best of</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Zanrove-fotografie">Žánrové fotografie</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Serie">Série</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="galerie.html">Galerie</a></li>
+                        <li class="nav__item nav__item--lowercase nav__item--active"><a class="link--green" href="trasa.html">Trasa</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1 class="header__heading header__heading--indentation header__heading--lowercase header__heading--green">Trasa</h1>
+        </div>
+        <main class="main main--line">
+            <ol class="roadtrip">
+                <li class="roadtrip__point"><a href="https://www.google.com/maps/place/SP%C5%A0SE+a+VO%C5%A0+Liberec+1,+Masarykova+3/@50.7731322,15.0624664,818m/data=!3m2!1e3!4b1!4m5!3m4!1s0x470936a0b62f8e85:0x30961e345e401253!8m2!3d50.7731322!4d15.0646604">SPŠSE a VOŠ</a></li>
+                <li class="roadtrip__point"><a href="https://www.google.com/maps/place/Univerzitn%C3%AD+n%C3%A1m.+1410,+461+17+Liberec/@50.7733222,15.0741526,818m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4709341bc4595d9b:0x3ea914c4fe2e481c!8m2!3d50.7733222!4d15.0763466">Univerzitní náměstí</a></li>
+                <li class="roadtrip__point"><a href="https://www.google.com/maps/place/vodn%C3%AD+n%C3%A1dr%C5%BE+Harcov/@50.7699433,15.0739624,17z/data=!3m1!4b1!4m5!3m4!1s0x47093419ab7c1d5d:0x9562abc6ee54b6dc!8m2!3d50.7708842!4d15.0757971">Vodní nádrž Harcov</a></li>
+                <li class="roadtrip__point"><a href="https://www.google.com/maps/place/Pap%C3%ADrov%C3%A9+n%C3%A1m.,+460+01+Liberec/@50.7682248,15.0530667,17z/data=!3m1!4b1!4m5!3m4!1s0x47093698c93a32b3:0x9595ed40c5dd4efc!8m2!3d50.7682248!4d15.0552607">Papírové náměstí</a></li>
+                <li class="roadtrip__point"><a href="https://www.google.com/maps/place/Libereck%C3%A1+radnice/@50.7696826,15.0560379,17z/data=!3m1!4b1!4m5!3m4!1s0x470936a1e14a1dc5:0xcf5dc8de447b42dd!8m2!3d50.7696826!4d15.0582319">Liberecká radnice</a></li>
+            </ol>
+                <figure class="section__picture picture picture--relative picture--full-width">
+                    <ol class="map">
+                        <li class="map__point map__point--1">1</li>
+                        <li class="map__point map__point--2">2</li>
+                        <li class="map__point map__point--3">3</li>
+                        <li class="map__point map__point--4">4</li>
+                        <li class="map__point map__point--5">5</li>
+                    </ol>
+                    <a href="https://www.google.com/maps/place/Liberec/@50.7660934,14.9794591,12z/data=!3m1!4b1!4m5!3m4!1s0x470936999212df43:0x400af0f66155990!8m2!3d50.76628!4d15.0543387">
+                        <img srcset="
+                            Pictures/thumbnails/Trasa/Trasa_Foto_Mobile760px.jpg 760w,
+                            Pictures/thumbnails/Trasa/Trasa_Foto_Tablet1150px.jpg 1150w, 
+                            Pictures/thumbnails/Trasa/Trasa_Foto_Computer1920px.jpg 1920w"
+                        sizes="100vw"
+                        src="Pictures/thumbnails/Trasa/Trasa_Foto_Tablet1150px.jpg" alt="Mapa Liberce" />
+                    </a>
+                </figure>
+        </main>
+        <footer class="main-footer">
+            <p class="main-footer__copyright">
+                &copy; 2022 Natálie Ryšavá
+            </p>
+            <nav class="nav nav--icon-layout nav--right">
+                <ul>
+                    <li class="nav__item nav__item--icon-layout"><a href="mailto:rysava.natali@gmail.com"><img src="Icons/Ikona_Email.svg" alt="Ikona Email"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.facebook.com/naty.pattynew"><img src="Icons/Ikona_Facebook.svg" alt="Ikona Facebook"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.instagram.com/naty.pattynew"><img src="Icons/Ikona_Instagarm.svg" alt="Ikona Instagram"></a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script>
+            let topMenu = document.getElementById('submenu');
+            let activator = document.getElementById('activator');
+            function togglemenu() {
+                topMenu.classList.toggle("nav__submenu--hidden");
+                activator.classList.toggle("activator--active");
+            }
+        </script>
+    </body>
+</html>

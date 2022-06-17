@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Svět bez barev</title>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/typography.css">
+        <link rel="stylesheet" href="CSS/mobile.css">
+        <link rel="stylesheet" href="CSS/tablet.css">
+        <link rel="stylesheet" href="CSS/computer.css">
+        <link rel="stylesheet" href="CSS/submenu.css">
+    </head>
+    <body>
+        <div class="main-header">
+            <header class="header">
+                <p class="header__logo header__logo--alignment header__logo--uppercase header__logo--indentation">
+                    <a class="link--letter-spacing" href="index.html">
+                        Terénní<span class="header__logo--letter-spacing header__logo--lowercase header__logo--smaller">seminář</span>
+                    </a>
+                </p>
+                <nav class="nav nav--bar-layout nav--line">
+                    <ul>
+                        <li class="nav__item nav__item--lowercase"><a class="activator link--green" href="javascript:void(0);" id="activator" onclick="togglemenu()">Témata</a>
+                            <ul class="nav__submenu nav__submenu--pink nav__submenu--hidden" id="submenu">
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Best-of">Best of</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Zanrove-fotografie">Žánrové fotografie</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Serie">Série</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="galerie.html">Galerie</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="trasa.html">Trasa</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="box box--switching">
+                <a class="switching-icon switching-icon--margin-left" href="casyminule.html">
+                    <img src="Icons/Ikona_PosunutiVlevo.svg" alt="Ikona rozbalení">
+                </a>
+                <h1 class="header__heading header__heading--lowercase header__heading--smaller header__heading--green header__heading--grow">Svět bez barev</h1>
+                <a class="switching-icon switching-icon--margin-right" href="krehkakrasa.html">
+                    <img src="Icons/Ikona_PosunutiVpravo.svg" alt="Ikona rozbalení">
+                </a>
+            </div>
+        </div>
+        <main class="main">
+            <div class="container container--genre">
+                <div class="text-box text-box--genre">
+                    <p class="text-box__text text-box__text--genre">
+                        Když sluníčko zajde za černé mraky, působí to na lidi pochmurně, dá se říci až černobíle. Pohled na svět se hned změní. Vše je smutné a&nbsp;bez barev. Tento starý pán se pomalu procházel městem. Chtěla jsem zachytit jeho výraz při vzpomínkách na ty barevné časy.
+                    </p>
+                    <p class="text-box__text text-box__text--genre">
+                        Takovéto snímky se mi fotí hůře, nemám ráda smutek v&nbsp;cizích očích ani v&nbsp;očích svých přátel.
+                    </p>
+                    <p class="text-box__text text-box__text--genre">
+                        Představte si svět bez barev, vše by bylo jednobarevné, ten pocit by se rovnal životu v&nbsp;černobílém filmu. Taková představa se asi nikomu nelíbí.
+                    </p>
+                </div>
+                <figure class="main__picture picture--genre picture picture--full-width">
+                    <a href="Pictures/Fullscreen/ZanroveFotografie/ZanroveFotografie_SvetBezBarev.jpg">
+                        <img srcset="
+                            Pictures/Thumbnails/ZanroveFotografie/ZanroveFotografie_SvetBezBarev2_Smaller480px.jpg 480w,
+                            Pictures/Thumbnails/ZanroveFotografie/ZanroveFotografie_SvetBezBarev2_Bigger960px.jpg 960w"
+                        sizes="
+                            (max-width: 760px) 100vw,
+                            (max-width: 1150px) calc(100vw – 2 * 13rem),
+                            28rem"
+                        src="Pictures/Thumbnails/ZanroveFotografie/ZanroveFotografie_SvetBezBarev2_Bigger960px.jpg" alt="Starší pán procházející se po náměstí"></a>
+                </figure>
+            </div>
+        </main>
+        <footer class="main-footer">
+            <p class="main-footer__copyright">
+                &copy; 2022 Natálie Ryšavá
+            </p>
+            <nav class="nav nav--icon-layout nav--right">
+                <ul>
+                    <li class="nav__item nav__item--icon-layout"><a href="mailto:rysava.natali@gmail.com"><img src="Icons/Ikona_Email.svg" alt="Ikona Email"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.facebook.com/naty.pattynew"><img src="Icons/Ikona_Facebook.svg" alt="Ikona Facebook"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.instagram.com/naty.pattynew"><img src="Icons/Ikona_Instagarm.svg" alt="Ikona Instagram"></a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script>
+            let topMenu = document.getElementById('submenu');
+            let activator = document.getElementById('activator');
+            function togglemenu() {
+                topMenu.classList.toggle("nav__submenu--hidden");
+                activator.classList.toggle("activator--active");
+            }
+        </script>
+    </body>
+</html>

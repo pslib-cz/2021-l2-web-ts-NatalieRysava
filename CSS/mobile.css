@@ -1,0 +1,365 @@
+.main-header__text {
+    padding: 0 2em;  
+}
+
+.main__text--small {
+    margin: 2rem;
+    padding: .5rem;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.main-footer__copyright {
+    margin: 1rem 2rem 0 2rem;
+}
+
+.section__heading {
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.header__heading--alignment, .section__heading--alignment, .header__logo--alignment > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.header__logo--indentation {
+    margin: 0;
+}
+
+.nav a {
+    padding: .5rem;
+}
+
+.nav__item {
+    margin: 0.75em 0;
+}
+
+.nav__item img {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    vertical-align: middle;
+}
+
+.nav__item--alignment-left {
+    text-align: left;
+    margin: .75rem .5rem;
+}
+
+.nav--line::after {
+    content: " ";
+    display: block;
+    border-bottom: 1.5em solid var(--clr-4);
+    margin-bottom: 2rem;
+}
+
+.nav--bar-layout > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.nav--icon-layout > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: .5rem;
+    margin: 5rem 2rem 0 2rem;
+    
+}
+
+.text-box--indentation {
+    padding: 2rem;
+}
+
+.text-box--pink {
+    background-color: var(--clr-3);
+}
+
+.text-box--green {
+    background-color: var(--clr-4);
+    padding-top: calc(2rem + 120% * (5 / 7));
+}
+
+.text-box__text {
+    padding-bottom: 1rem;
+}
+
+.text-box__text--about-me {
+    padding: 1rem 2rem;
+}
+
+.text-box__heading--contact {
+    margin: 3rem 2rem 0rem 2rem;
+}
+
+.text__quote {
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.section__text--series {
+    padding: 0 4rem;
+}
+
+.section__picture--indentation {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.section__picture--flowout-120 {
+    margin-bottom: calc(-120% * (5 / 7));
+}
+
+.section__text--signature {
+    margin: 0 2rem 0 0;
+    transform: rotate(-20deg);
+    padding: 0;
+}
+
+.section--line::before {
+    content: " ";
+    display: block;
+    border-bottom: 3em solid var(--clr-5);
+    margin-top: 4rem;
+}
+
+.box--about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture--full-width {
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.picture-box__picture {
+    margin: 2rem;
+}
+
+.picture--profile {
+    max-width: 10rem;
+    margin: 2rem;
+}
+
+.picture__figcaption {
+    padding: 1em;
+    background-color: var(--clr-3);
+}
+
+.picture-box__picture--indentation {
+    margin: 3rem 0;
+}
+
+/*galerie*/
+
+.main--row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: .4rem;
+    gap: .4rem;
+    justify-content: center;
+}
+
+.main__picture--columns {
+    height: 100%;
+    flex-basis: calc(100% / 2 - .2rem);
+    margin: 0;
+    flex-grow: 1;
+}
+
+.nav__item--active {
+    color: var(--clr-7);
+}
+
+.header__heading--indentation {
+    margin-bottom: 3rem;
+}
+
+/*trasa*/
+
+.roadtrip {
+    list-style-type: none;
+    padding: 3em 0;
+    margin: 0 0 4em 0;
+    background-color: var(--clr-4);
+}
+
+.roadtrip__point {
+    background-color: var(--clr-1);
+    width: fit-content;
+    counter-increment: point;
+    padding: 0.25em 1em;
+    margin: 1.5em auto;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.roadtrip__point > a {
+    padding: .5rem;
+}
+
+.roadtrip__point::before {
+    content: counter(point);
+    padding-right: 0.5em;
+}
+
+.picture--relative {
+    position: relative;
+}
+
+.map__point {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 2rem;
+    background-color: var(--clr-1);
+}
+
+.map__point--1 {
+    left: 41%;
+    top: 17%;
+}
+
+.map__point--2 {
+    left: 81%;
+    top: 19%;
+}
+
+.map__point--3 {
+    left: 86%;
+    top: 45%;
+}
+
+.map__point--4 {
+    left: 19%;
+    top: 58%;
+}
+
+.map__point--5 {
+    left: 10%;
+    top: 68%;
+}
+
+@media (min-width: 960px) {
+    .roadtrip {
+        background-color: transparent;
+        padding: 1em 0;
+        margin: 0;
+    }
+    
+    .roadtrip__point {
+        background-color: initial;
+        border-radius: initial;
+        display: inline;
+        padding: initial;
+        margin: initial;
+    }
+
+    .roadtrip__point:first-child::before {
+        content: none;
+    }
+
+    .roadtrip__point+.roadtrip__point::before {
+        content: '\2013';
+        color: var(--clr-2);
+        padding: 0 0.5em;
+    }
+
+    .main--line::after {
+        content: "";
+        display: block;
+        height: 3em;
+        background-color: var(--clr-3);
+    }
+}
+
+/* Kontakt */
+
+.main__text {
+    padding: 0 3rem;
+}
+
+.main__picture--border {
+    margin: 5rem 10% 0 10%;
+    background-color: var(--clr-3);
+    padding: 2rem;
+}
+
+.main__text--bottom {
+    margin: 5rem 1rem 0 1rem;
+}
+
+.text-box--contact {
+    margin: 0 1rem;
+}
+
+.text-box__text--contact {
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+@media (max-width: 400px) {
+    .text-box__text--contact {
+        padding-top: 1rem;
+        font-size: .8rem;
+    }
+}
+
+/* Žánrové fotografie – Časy minulé, Křehká krása, Svět bez barev */
+
+.header__heading--grow {
+    flex-grow: 1;
+}
+
+.text-box--genre {
+    margin: 1rem 2rem 0 2rem;
+}
+
+.box--switching {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 25rem;
+}
+
+.switching-icon > img {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.switching-icon--margin-right {
+    margin-right: 2rem;
+}
+
+.switching-icon--margin-left {
+    margin-left: 2rem;
+}
+
+.picture--genre {
+    padding-top: 3rem;
+    background-color: var(--clr-3);
+}
+

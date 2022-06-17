@@ -1,0 +1,184 @@
+@media screen and (min-width: 1150px) {
+    .main-footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-footer__copyright {
+        margin-top: 5rem;
+    }
+    
+    .text-box--green {
+        background-color: transparent;
+        padding: 2rem 2rem 2rem 5rem;
+        text-align: left;
+    }
+    
+    .text__quote {
+        padding: 0 3rem;
+    }
+    
+    .text-box--alignment-left {
+        max-width: 35rem;
+        text-align: left;
+    }
+
+    .section__text--signature {
+        position: absolute;
+        right: -260%;
+        bottom: 0;
+    }
+
+    .section--line::before {
+        margin-top: 7rem;
+    }
+
+    .section__picture--flowout-120 {
+        margin: -5% 5% 5% 0;
+        max-width: 20%;
+    }
+
+    .section_heading--alignment-left {
+        margin-left: 5rem;
+        text-align: left;
+    }
+
+    .section_heading--indentation {
+        margin-right: calc(-9em + 48vw)
+    }
+
+    .box--best-of {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 4rem;
+        background-color: var(--clr-4);
+        max-height: fit-content;
+        justify-content: space-between;
+    }
+
+    .box--about-me {
+        position: relative;
+    }
+
+    .picture--opening {
+        margin-right: 8rem;
+        margin-left: 8rem;
+    }
+
+    .picture-box--series {
+        flex-wrap: nowrap;
+        gap: 1rem;
+        margin: 4rem 0 3rem 0;
+    }
+
+    .picture-box__picture--indentation {
+        margin: 0;
+    }
+
+    .picture-box--genre-photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        margin: 4rem 2rem;
+        justify-content: space-evenly;
+    }
+
+    .container--about-me {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Galerie */
+
+    .main__picture--columns {
+        flex-basis: calc(100% / 7 - .4rem);
+    } 
+
+    .main--row {
+        padding-top: 1rem;
+        margin-top: 0;
+    }
+    
+    /* Žánrové fotografie – Časy minulé, Křehká krása, Svět bez barev */
+
+    .text-box--genre {
+            margin: 2rem 4rem 2rem 2rem;
+            text-align: left;
+        }
+
+    .picture--genre {
+            max-width: 28rem;
+            margin: 2rem;
+        }
+
+    .container--genre {
+        display: flex;
+        gap: 2rem;
+        margin: 2rem auto;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    
+    /* Kontakt */
+
+    .container--contact {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .box--contact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 2rem;
+    }
+
+    .box--alignment-left {
+        align-items: flex-start;
+    }
+
+    .box--alignment-center {
+        align-items: center;
+    }
+
+    .main__picture--border {
+        margin: 0;
+        width: 20rem;
+        margin: 0;
+    }
+
+    .main__text {
+        padding: 0;
+        text-align: left;
+        max-width: 40rem;
+    }
+
+    .text-box__heading--contact {
+        margin: 3rem 0 0rem 0;
+    }
+
+    .main__text--small {
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .text-box--contact {
+        text-align: left;
+        margin: 0;
+    }
+
+    .main__text--bottom {
+        margin: 2rem 0 0 0;
+    }
+}
+

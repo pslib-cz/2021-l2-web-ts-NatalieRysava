@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galerie</title>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/typography.css">
+        <link rel="stylesheet" href="CSS/mobile.css">
+        <link rel="stylesheet" href="CSS/tablet.css">
+        <link rel="stylesheet" href="CSS/computer.css">
+        <link rel="stylesheet" href="LightGallery/css/lightgallery-bundle.min.css">
+        <link rel="stylesheet" href="CSS/submenu.css">
+    </head>
+    <body>
+        <div class="main-header">
+            <header class="header">
+                <p class="header__logo header__logo--alignment header__logo--indentation header__logo--uppercase">
+                    <a class="link--letter-spacing" href="index.html">
+                        Terénní<span class="header__logo--smaller header__logo--lowercase header__heading--letter-spacing">seminář</span>
+                    </a>
+                </p>
+                <nav class="nav nav--bar-layout nav--line">
+                    <ul>
+                        <li class="nav__item nav__item--lowercase nav__item--bar-layout"><a class="activator link--green" href="javascript:void(0);" id="activator" onclick="togglemenu()">Témata</a>
+                            <ul class="nav__submenu nav__submenu--pink nav__submenu--hidden" id="submenu">
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Best-of">Best of</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Zanrove-fotografie">Žánrové fotografie</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Serie">Série</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--lowercase nav__item--active"><a class="link--green" href="galerie.html">Galerie</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="trasa.html">Trasa</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1 class="header__heading header__heading--indentation header__heading--lowercase header__heading--green">Galerie</h1>
+        </div>
+        <main class="main main--row" id="my-gallery">
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto1.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto1_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto1_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto2_Bigger360px.jpg" alt="Modřenec arménský"/>
+                </a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto2.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto2_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto2_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto2_Bigger360px.jpg" alt="Holčička na starém kolotoči">
+                </a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto3.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto3_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto3_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto3_Bigger360px.jpg" alt="Lensball"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto4.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto4_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto4_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto4_Bigger360px.jpg" alt="Koleje"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto5.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto5_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto5_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto5_Bigger360px.jpg" alt="Stará vila"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto6.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto6_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto6_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto6_Bigger360px.jpg" alt="Portrét Anastasie"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto7.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto7_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto7_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto7_Bigger360px.jpg" alt="Budova Technické univerzity"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto8.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto8_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto8_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto8_Bigger360px.jpg" alt="Budova Technické univerzity"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto9.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto9_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto9_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto9_Bigger360px.jpg" alt="Štěně samojeda"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto10.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto10_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto10_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto10_Bigger360px.jpg" alt="Diagonálně rostoucí strom"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto11.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto11_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto11_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto11_Bigger360px.jpg" alt="Růžová sakura"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto12.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto12_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto12_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto12_Bigger360px.jpg" alt="Budova technické univerzity"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto13.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto13_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto13_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto13_Bigger360px.jpg" alt="Interiér kostela sv. Antonína Velikého"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto14.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto14_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto14_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto14_Bigger360px.jpg" alt="Odraz Liberecké radnice"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto15.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto15_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto15_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto15_Bigger360px.jpg" alt="Šafrán jarní"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto16.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto16_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto16_Bigger360px.jpg 360w"
+                    sizes="
+                       (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto16_Bigger360px.jpg" alt="Portrét Anastasie"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto17.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto17_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto17_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto17_Bigger360px.jpg" alt="Narcis bílý"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto18.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto18_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto18_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto18_Bigger360px.jpg" alt="Zvonek na starém kolotoči"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto19.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto19_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto19_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto19_Bigger360px.jpg" alt="Severočeské muzeum"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto20.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto20_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto20_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto20_Bigger360px.jpg" alt="Odraz Liberecké radnice"></a>
+            </figure>
+            <figure class="main__picture picture main__picture--columns">
+                <a href="Pictures/Fullscreen/Galerie/Galerie_Foto21.jpg">
+                    <img srcset="
+                        Pictures/Thumbnails/Galerie/Galerie_Foto21_Smaller200px.jpg 200w,
+                        Pictures/Thumbnails/Galerie/Galerie_Foto21_Bigger360px.jpg 360w"
+                    sizes="
+                        (min-width: 1150px) calc(100vw / 7),
+                        ((min-width: 760px) and (max-width: 1150px)) calc(100vw / 3),
+                        50vw"
+                    src="Pictures/Thumbnails/Galerie/Galerie_Foto21_Bigger360px.jpg" alt="Okna severočeského muzea"></a>
+            </figure>
+        </main>
+        <footer class="main-footer">
+            <p class="main-footer__copyright">
+                &copy; 2022 Natálie Ryšavá
+            </p>
+            <nav class="nav nav--icon-layout nav--right">
+                <ul>
+                    <li class="nav__item nav__item--icon-layout"><a href="mailto:rysava.natali@gmail.com"><img src="Icons/Ikona_Email.svg" alt="Ikona Email"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.facebook.com/naty.pattynew"><img src="Icons/Ikona_Facebook.svg" alt="Ikona Facebook"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.instagram.com/naty.pattynew"><img src="Icons/Ikona_Instagarm.svg" alt="Ikona Instagram"></a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="LightGallery/lightgallery.min.js"></script>
+        <script>lightGallery(document.getElementById('my-gallery'), {
+            selector: '.picture > a',
+        });</script>
+        <script>
+            let topMenu = document.getElementById('submenu');
+            let activator = document.getElementById('activator');
+            function togglemenu() {
+                topMenu.classList.toggle("nav__submenu--hidden");
+                activator.classList.toggle("activator--active");
+            }
+        </script>
+    </body>
+</html>

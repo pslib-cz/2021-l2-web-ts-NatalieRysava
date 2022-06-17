@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/typography.css">
+        <link rel="stylesheet" href="CSS/mobile.css">
+        <link rel="stylesheet" href="CSS/tablet.css">
+        <link rel="stylesheet" href="CSS/computer.css">
+        <link rel="stylesheet" href="CSS/submenu.css">
+    </head>
+    <body>
+        <div class="main-header">
+            <header class="header">
+                <p class="header__logo header__logo--alignment header__logo--uppercase header__logo--indentation">
+                    <a class="link--letter-spacing" href="index.html">
+                        Terénní<span class="header__logo--smaller header__logo--lowercase header__heading--letter-spacing">seminář</span>
+                    </a>
+                </p>
+                <nav class="nav nav--bar-layout nav--line">
+                    <ul>
+                        <li class="nav__item nav__item--lowercase"><a class="activator link--green" href="javascript:void(0);" id="activator" onclick="togglemenu()">Témata</a>
+                            <ul class="nav__submenu nav__submenu--pink nav__submenu--hidden" id="submenu">
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Best-of">Best of</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Zanrove-fotografie">Žánrové fotografie</a></li>
+                                <li class="nav__item nav__item--uppercase nav__item--alignment-left"><a class="link--yellow" href="index.html#Serie">Série</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="galerie.html">Galerie</a></li>
+                        <li class="nav__item nav__item--lowercase"><a class="link--green" href="trasa.html">Trasa</a></li>
+                        <li class="nav__item nav__item--lowercase nav__item--active"><a class="link--green" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1 class="header__heading header__heading--indentation header__heading--lowercase header__heading--green">Kontakt</h1>
+        </div>
+        <main class="main">
+            <div class="container container--contact">
+                <div class="box box--contact box--alignment-left">
+                    <p class="main__text">
+                        Jmenuji se Natálie Ryšavá a&nbsp;jsem amatérská fotografka. Nejčastěji jsem k&nbsp;zastižení v&nbsp;Liberci a&nbsp;jeho okolí. Pokud si u&nbsp;mě chcete rezervovat termín na focení, můžete využít uvedené kontakty.
+                    </p>
+                    <a href="index.html#aboutme">
+                        <p class="main__text main__text--small">
+                            více o&nbsp;mně
+                        </p>
+                    </a>
+                    <div class="text-box text-box--contact">
+                        <h2 class="text-box__heading text-box__heading--lowercase text-box__heading--contact">Telefon</h2>
+                        <p class="text-box__text text-box__text--contact">
+                            <a href="tel:603970918">
+                                +420&nbsp;603&nbsp;970&nbsp;918
+                            </a>
+                        </p>
+                        <h2 class="text-box__heading text-box__heading--lowercase text-box__heading--contact">Email</h2>
+                        <p class="text-box__text text-box__text--contact">
+                            <a href="mailto:rysava.natali@gmail.com">
+                                rysava.natali@gmail.com
+                            </a>
+                        </p>
+                        <h2 class="text-box__heading text-box__heading--lowercase text-box__heading--contact">Facebook</h2>
+                        <p class="text-box__text text-box__text--lowercase text-box__text--contact">
+                            <a href="https://www.facebook.com/naty.pattynew">
+                                https://www.facebook.com/naty.pattynew
+                            </a>
+                        </p>
+                        <h2 class="text-box__heading text-box__heading--lowercase text-box__heading--contact">Instagram</h2>
+                        <p class="text-box__text text-box__text--lowercase text-box__text--contact">
+                            <a href="https://www.instagram.com/naty.pattynew">
+                                https://www.instagram.com/naty.pattynew
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="box box--contact box--alignment-center">
+                    <figure class="main__picture main__picture--border picture">
+                        <img srcset="
+                            Pictures/Thumbnails/Kontakty/Kontakty_Foto_Smaller320px.jpg 320w,
+                            Pictures/Thumbnails/Kontakty/Kontakty_Foto_Bigger760px.jpg 760w"
+                        sizes="
+                            (max-width: 760px) calc(100vw - 2 * 13vw - 4rem),
+                            (max-width: 1150px) calc(100vw - 2 * 35vw - 4rem),
+                            16vw"
+                        src="Pictures/Thumbnails/Kontakty/Kontakty_Foto_Bigger760px.jpg" alt="Odraz Liberecké radnice" />
+                    </figure>
+                    <p class="main__text--bottom">
+                        Těším se a&nbsp;děkuji za zprávy.
+                    </p>
+                </div>
+            </div>
+            
+        </main>
+        <footer class="main-footer">
+            <p class="main-footer__copyright">
+                &copy; 2022 Natálie Ryšavá
+            </p>
+            <nav class="nav nav--icon-layout nav--right">
+                <ul>
+                    <li class="nav__item nav__item--icon-layout"><a href="mailto:rysava.natali@gmail.com"><img src="Icons/Ikona_Email.svg" alt="Ikona Email"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.facebook.com/naty.pattynew"><img src="Icons/Ikona_Facebook.svg" alt="Ikona Facebook"></a></li>
+                    <li class="nav__item nav__item--icon-layout"><a href="https://www.instagram.com/naty.pattynew"><img src="Icons/Ikona_Instagarm.svg" alt="Ikona Instagram"></a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script>
+            let topMenu = document.getElementById('submenu');
+            let activator = document.getElementById('activator');
+            function togglemenu() {
+                topMenu.classList.toggle("nav__submenu--hidden");
+                activator.classList.toggle("activator--active");
+            }
+        </script>
+    </body>
+</html> 

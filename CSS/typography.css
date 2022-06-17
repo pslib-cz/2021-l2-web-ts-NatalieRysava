@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Abril Fatface;
+    src: url(../fonts/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ms Madi;
+    src: url(../fonts/MsMadi-Regular.ttf);
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+h1, .header__logo {
+    font-family: Abril Fatface, serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 0.25rem;
+    color: var(--clr-6);
+}
+
+h2 {
+    font-family: Abril Fatface, serif;
+    font-size: 2.25rem;
+    font-weight: 200;
+}
+
+.header__heading--smaller, .header__logo--smaller {
+    font-size: 1.6rem;
+    color: var(--clr-5);
+}
+
+.header__heading--letter-spacing, .header__logo--letter-spacing {
+    letter-spacing: .5rem;
+}
+
+.header__heading--uppercase, .header__logo--uppercase, .text-box__heading--uppercase, .nav__item--uppercase {
+    text-transform: uppercase;
+}
+
+.header__heading--lowercase, .header__logo--lowercase, .picture__figcaption--lowercase, .nav__item--lowercase, .text-box__heading--lowercase  {
+    text-transform: lowercase;
+}
+
+.main-header__text {
+    font-family: inherit;
+    text-align: center;    
+    text-decoration: none;   
+}
+
+.main__text--small {
+    font-size: 0.9rem;
+    color: var(--clr-6);
+}
+
+.main__text--bottom {
+    font-family: Ms Madi, cursive;
+    font-size: 2rem;
+}
+
+.main-footer__copyright {
+    font-size: 0.8rem;
+}
+
+.nav a {
+    font-family: inherit;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.text-box__heading--contact {
+    font-family: Abril Fatface, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--clr-5);
+}
+
+.text-box__heading--best-of {
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.text__quote {
+    font-family: inherit;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.text__author {
+    font-family: Ms Madi, cursive;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.section__text--signature {
+    font-family: Ms Madi, cursive;
+    font-size: 2rem;
+}
+
+.section__heading--pink {
+    color: var(--clr-6);
+}
+
+.section__heading--grey {
+    color: var(--clr-7);
+}
+
+.section__heading--green, .header__heading--green {
+    color: var(--clr-8);
+}
+
+.section__heading--yellow {
+    color: var(--clr-5);
+}
+
+.link--green:hover {
+    color: var(--clr-7);
+}
+
+.link--letter-spacing:hover {
+    letter-spacing: .5rem;
+}
+
+.roadtrip__point::before {
+    color: var(--clr-6);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.map__point {
+    font-size: 1.2rem;
+    color: var(--clr-6);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+

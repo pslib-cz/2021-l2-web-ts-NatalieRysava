@@ -1,0 +1,36 @@
+:root {
+    --clr-1: #FFFFFF;
+    --clr-2: #000000;
+    --clr-3: #FFDED1;
+    --clr-4: #C4D7D1;
+    --clr-5: #F0BC68;
+    --clr-6: #F09D87;
+    --clr-7: #AAB8BB;
+    --clr-8: #5F9595;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.main-header__text, .text, .section__text, .text-box__text, .main__text {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.picture img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+}
+
+.picture a {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+

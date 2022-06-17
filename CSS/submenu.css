@@ -1,0 +1,44 @@
+.nav__submenu {
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+}
+
+.nav__submenu a {
+    padding: .5rem;
+    font-size: .9rem;
+}
+
+.nav__submenu--pink {
+    color: var(--clr-6);
+    background-color: var(--clr-1);
+    margin-left: -.5em;
+}
+
+.link--yellow:hover {
+    color: var(--clr-5);
+}
+
+.nav__submenu--hidden {
+    display: none;
+}
+
+.submenu--green {
+    color: var(--clr-4);
+}
+
+.activator::after {
+    content: "";
+    background-image: url(../Icons/Ikona_Rozbalit.svg);
+    background-size: cover;
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    transform: rotate(-90deg);
+    transition: transform ease-in .1s;
+    vertical-align: middle;
+}
+
+.activator--active::after {
+    transform: rotate(0deg);
+}
